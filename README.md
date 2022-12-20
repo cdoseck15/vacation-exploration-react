@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h1><a href="https://main.d1onofnofz7ttl.amplifyapp.com/">Vacation Exploration</a></h1>
+<p>
+  Vacation Exploration is a website that helps people find the vacation that they would like to go on.
+</p>
+<p>
+  Anyone that visits the website is able to view the about information and view any public vacations. A user can login and create an account that allows them to add friends and create and rate vacations that they have been on.
+</p>
+<h2>Technical Information</h2>
+<p>
+  This project uses Next.js and react.js as the basis for the frontend. Other packages and technologies used are:
+  <ul>
+    <li>AWS Amplify</li>
+    <li>React-Redux</li>
+    <li>Google Places scripts</li>
+    <li>Axios</li>
+    <li>HTML and CSS</li>
+  </ul>
+<h2>How to use this code</h2>
+<p>
+  This project is run concurrently with a node.js backend that is in
+  <a href="https://github.com/cdoseck15/vacation-exploration-node">another repository</a> 
+  on my account.
+</p>
+<p>
+  You will have to have an account with Google setup to allow you to use Google Places and and OAuth Client ID that allows users to sign in using google.
+</p>
+<p>
+  In addition to that you will require an AWS account if you wish to push this to AWS.
+<p>
+  In order to use this code you will need to create a private-constants.js file that contains the constants needed for the program to run. In the future this will be set to use environment variables and this file will no longer be used. The constants are as follows:
+  <ul>
+    <li>API_URL which is the url of the api</li>
+    <li>GOOGLE_API_KEY</li>
+  </ul>
+</p>

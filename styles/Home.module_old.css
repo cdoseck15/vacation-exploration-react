@@ -3,7 +3,6 @@
 }
 
 .main {
-  min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -28,14 +27,14 @@
   flex-grow: 1;
 }
 
-.title a {
+.subtitle a {
   color: #0070f3;
   text-decoration: none;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
+.subtitle a:hover,
+.subtitle a:focus,
+.subtitle a:active {
   text-decoration: underline;
 }
 
@@ -45,7 +44,14 @@
   font-size: 4rem;
 }
 
+.subtitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+}
+
 .title,
+.subtitle,
 .description {
   text-align: center;
 }

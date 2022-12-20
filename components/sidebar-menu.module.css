@@ -1,0 +1,26 @@
+.menuLink{
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 24px;
+	margin: 10px 10px;
+	padding: 5px 10px;
+}
+
+.menuLink:hover{
+	background-color: #F0F2F5;
+}
+
+.sidebar{
+	position: fixed;
+	top:60px;
+	right: 20px;
+	width: 200px;
+	height: 200px;
+	z-index: 3;
+}
+
+.invisible{
+	visibility: hidden;
+	height: 0px;
+	width: 0px;
+}

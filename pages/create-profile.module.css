@@ -1,0 +1,48 @@
+.Modal {
+	user-select: none;
+	background-color: white;
+	position: relative;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 20px;
+	height: 675px;
+	width: 500px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px 0px;
+	outline: 0;
+}
+
+.warning{
+	position: absolute;
+	top: 320px;
+	text-align: center;
+	width: 100%;
+	color: red;
+	font-weight: bold;
+}
+
+.usernameButton{
+	position: absolute;
+	font-size: 14px;
+	left: 175px;
+	right: 175px;
+	top: 500px;
+}
+
+.usernameInput{
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	top: 300px;
+	right: 150px;
+	left: 150px;
+}
+
+.loginHeader{
+	font-size: 32px;
+	width:75%;
+	position: relative;
+	top: 75px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}

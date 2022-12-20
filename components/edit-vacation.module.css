@@ -1,0 +1,142 @@
+.editPostBackground{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.editPost{
+	height: 800px;
+	position: relative;
+	margin: auto;
+	width: 75%;
+	max-width: 600px;
+	top: 50%;
+  transform: translateY(-50%);
+	overflow-y: auto;
+}
+
+.subHeader{
+	margin-top: 0;
+}
+
+.header,
+.subHeader{
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.selectLocation{
+	position: relative;
+	height: 28px;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+.googleInput{
+	position: relative;
+	height: 28px;
+	width: 100%
+}
+
+.locationName{
+	display: inline-block;
+	font-size: 18px;
+}
+
+.closeButton{
+	height: 28px;
+	font-size: 28px;
+}
+
+.starButton{
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.attractionList{
+	text-align: left;
+	margin: 20px 20px;
+	max-height: 125px;
+	overflow-y: auto;
+}
+
+.attractionLocation{
+	font-size: 14px;
+}
+
+.attractionClose{
+	height: 22px;
+	font-size: 18px;
+}
+
+.finishButton{
+	position: absolute;
+	bottom: 20px;
+	font-size: 16px;
+	padding: 5px 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.publicPost,
+.privatePost{
+	transition: all 0.25s;
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 15px;
+	padding: 0 15px;
+}
+
+.publicPost{
+	text-align: left;
+	background-color: DeepSkyBlue;
+}
+
+.privatePost{
+	text-align: right;
+	background-color: #F0F2F5;
+}
+
+.selectorRight,
+.selectorLeft{
+	position: absolute;
+	top: 7px;
+	border-radius: 8px;
+	height: 16px;
+	width: 16px;
+	background-color: white;
+}
+
+.selectorRight{
+	right: 7px;
+}
+
+.selectorLeft{
+	left: 7px;
+}
+
+.vacationDetails{
+	resize: none;
+	height: 100%;
+	width: 100%;
+	font-family: inherit;
+	font-size: 16px;
+
+}
+
+.vacationDetailsDiv{
+	resize: none;
+	margin: 20px 20px;
+	width: auto;
+	height: 125px;
+}

@@ -1,0 +1,26 @@
+.title{
+  line-height: 1.15;
+  font-size: 48px;
+	text-align: center;
+	cursor: pointer;
+	width: 650px;
+	position: relative;
+	margin: auto;
+	height: 100%;
+}
+
+.header{
+	height: 60px;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	width: 100%;
+}
+
+.sidebarButton{
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	height: 60px;
+	width: 60px;
+}

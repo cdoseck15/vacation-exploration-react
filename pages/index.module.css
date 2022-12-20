@@ -1,0 +1,164 @@
+.vacation, 
+.header{
+	margin: auto;
+	min-width: 500px;
+	width: 75%;
+	position: relative;
+	z-index: 4;
+}
+
+.vacation{
+	margin-bottom: 10px;
+}
+
+.vacationHeader{
+	margin: 0;
+	display: inline-block;
+	width: 33.3333%;
+	line-height: 100%;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.ratingHeader{
+	margin: 0;
+}
+
+.dateHeader{
+	margin: 0px;
+	text-align: center;
+}
+
+.details{
+	margin: 0 40px;
+}
+
+.attraction{
+	display: inline-block;
+	word-wrap: keep-all;
+	min-width: 50%;
+	text-align: center;
+	margin: 0;
+	margin-top: 5px;
+}
+
+.subHeader{
+	margin: 0;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.moreButton{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+
+.menu{
+	width: 100px;
+	right: 0;
+	position: absolute;
+	top: 30px;
+	border-color: #00000015;
+	border-style: solid;
+	border-width: thin;
+	padding: 10px;
+}
+
+.menuButton{
+	padding: 5px 10px;
+	width: 100%
+}
+
+.attractionsButton{
+	display: block;
+	position: relative;
+	margin: auto;
+  margin-top: 10px;
+	padding: 5px 10px;
+	color: blue;
+}
+
+.buttonGroup{
+  margin: auto;
+  width: 300px;
+}
+
+.leftButton,
+.centerButton,
+.rightButton{
+	display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  background-color: inherit;
+  margin: auto;
+  height: 30px;
+  width: 100px;
+}
+
+.leftButton:hover,
+.centerButton:hover,
+.rightButton:hover{
+  background: #e4e6e9;
+  cursor: pointer;
+}
+
+.selectedView{
+  background: #e4e6e9;
+}
+
+.centerButton{
+  border-right: none;
+  border-left: none;
+}
+
+.leftButton{
+  border-radius: 10px 0px 0px 10px;
+}
+
+.rightButton{
+  border-radius: 0 10px 10px 0;
+}
+
+.newVacationButton{
+  position: absolute;
+	right: 20px;
+	top: 12px;
+}
+
+.refreshButton{
+	width: 100px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 5px 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+.pageHeader{
+	position: relative;
+	padding: 10px;
+	margin-top: 0;
+}
+
+.headerSpace{
+	position: sticky;
+	padding-top: 10px;
+	top: 60px;
+	z-index: 10;
+	width: 100%;
+	background-color: #F0F2F5;
+	margin-bottom: 10px;
+}
+
+.publicHeader{
+	padding: 2.5px;
+}
+
+.moreContentButton{
+	width: 100px;
+}
+
+.noMoreContent{
+	width: 175px;
+}
